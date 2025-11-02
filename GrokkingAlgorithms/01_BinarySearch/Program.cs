@@ -10,18 +10,18 @@ System.Console.WriteLine(result);
 static int? BinarySearch(int[] nums, int target)
 {
     int low = 0;
-    int hight = nums.Length - 1;
+    int high = nums.Length - 1;
 
-    while (low <= hight)
+    while (low <= high)
     {
-        var mid = (low + hight) / 2;
+        var mid = (low + high) / 2;
 
         if (nums[mid] == target)
             return mid;
         else if (nums[mid] < target)
             low = mid + 1;
         else
-            hight = mid - 1;
+            high = mid - 1;
     }
     return null;
 }
