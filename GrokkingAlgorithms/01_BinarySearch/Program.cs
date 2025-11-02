@@ -18,7 +18,7 @@ static int? BinarySearch(int[] nums, int target)
 
         if (nums[mid] == target)
             return mid;
-        else if (mid < target)
+        else if (nums[mid] < target)
             low = mid + 1;
         else
             hight = mid - 1;
