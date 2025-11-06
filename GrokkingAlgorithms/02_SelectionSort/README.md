@@ -60,5 +60,5 @@ Sorting [5, 3, 6, 2, 10]:
 - **Big O O(n²):** Poor performance on large datasets
 
 ---
-[← Chapter 1: Introduction]([Chapter01.md](https://github.com/mohamedmahmoud345/grokking-algorithms-practice/blob/main/GrokkingAlgorithms/01_BinarySearch/README.md)) | [Chapter 3: Recursion →](Chapter03.md)
+
 
