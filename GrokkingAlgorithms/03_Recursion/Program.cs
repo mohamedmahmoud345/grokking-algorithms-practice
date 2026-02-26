@@ -8,7 +8,7 @@ Console.WriteLine(Factorial(5)); // 5! = 120
 
 static int Factorial(int x)
 {
-    if (x == 1) return 1;          // Base case
+    if (x == 1) return 1; // Base case
     return x * Factorial(x - 1);  // Recursive case
 }
 
@@ -24,7 +24,7 @@ static void CountdownWithStack(int n, int depth)
     string indent = new string(' ', depth * 2);
     Console.WriteLine($"{indent}→ PUSH: CountdownWithStack({n})  [stack depth: {depth + 1}]");
 
-    if (n <= 0)                    // Base case
+    if (n <= 0) // Base case
     {
         Console.WriteLine($"{indent}  Base case reached — start unwinding");
         Console.WriteLine($"{indent}← POP:  CountdownWithStack({n})");
@@ -36,7 +36,7 @@ static void CountdownWithStack(int n, int depth)
     Console.WriteLine($"{indent}← POP:  CountdownWithStack({n})");
 }
 
-// ── 3. Stack Overflow Warning (page 42) ─────────────────────────────────────
+// ── 3. Stack Overflow Warning ─────────────────────────────────────
 // A function with NO base case will recurse forever → StackOverflowException.
 // Do NOT call InfiniteRecursion() — it is here only to illustrate the concept.
 
@@ -45,7 +45,7 @@ static void CountdownWithStack(int n, int depth)
 //     InfiniteRecursion(); // No base case → stack fills up → crash!
 // }
 
-// ── 4. Iterative Alternative (page 43) ──────────────────────────────────────
+// ── 4. Iterative Alternative ──────────────────────────────────────
 // Loops can replace recursion and use constant memory (no stack growth).
 
 Console.WriteLine("\n=== 3. Iterative Factorial (same result, no stack growth) ===");
