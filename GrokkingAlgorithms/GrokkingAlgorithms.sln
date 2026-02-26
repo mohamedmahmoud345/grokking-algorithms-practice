@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_BinarySearch", "01_Binar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_SelectionSort", "02_SelectionSort\02_SelectionSort.csproj", "{775A3B3C-414A-4265-A155-887706532424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Recursion", "03_Recursion\03_Recursion.csproj", "{FADC423C-2693-42E7-AAE2-A35C1722ADF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{775A3B3C-414A-4265-A155-887706532424}.Release|x64.Build.0 = Release|Any CPU
 		{775A3B3C-414A-4265-A155-887706532424}.Release|x86.ActiveCfg = Release|Any CPU
 		{775A3B3C-414A-4265-A155-887706532424}.Release|x86.Build.0 = Release|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Debug|x64.Build.0 = Debug|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Release|x64.ActiveCfg = Release|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Release|x64.Build.0 = Release|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{FADC423C-2693-42E7-AAE2-A35C1722ADF9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
