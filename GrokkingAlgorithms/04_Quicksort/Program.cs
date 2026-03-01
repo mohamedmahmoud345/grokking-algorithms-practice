@@ -1,7 +1,7 @@
-﻿
-
-int[] arr = { 1, 2, 3, 4 };
+﻿int[] arr = { 1, 2, 3, 4 };
 var solution = new Solutions();
+
+System.Console.WriteLine("-------------------- Divide & conquer exercises ----------------------");
 
 // 4.1 result
 Console.WriteLine("Sum: " + solution.ReturnTotal(arr, 0));
@@ -15,6 +15,17 @@ Console.WriteLine("Max: " + solution.MaxNum(arr, 0));
 // 4.4 result
 Console.WriteLine("Binary Search (target=2): " + solution.BinarySearch(arr, 2, 0, arr.Length - 1));
 
+System.Console.WriteLine("-------------------- quick sort ----------------------");
+
+// quick sort 
+int[] arr2 = [2, 3, 4, 1, 5, 6];
+
+var quickSort = new QuickSort();
+
+var result = quickSort.Run(arr2, 0, arr2.Length - 1);
+
+foreach (var n in result)
+    System.Console.WriteLine(n);
 
 public class Solutions
 {
@@ -59,5 +70,49 @@ public class Solutions
             return BinarySearch(arr, target, left, mid - 1);
         else
             return BinarySearch(arr, target, mid + 1, right);
+    }
+}
+
+public class QuickSort
+{
+    // Public method to sort an array using quicksort
+    // left: starting index, right: ending index
+    public int[] Run(int[] arr, int left, int right)
+    {
+        if (left < right)
+        {
+            // Get partition index where element is in correct position
+            int pivotIndex = Partition(arr, left, right);
+
+            // Recursively sort elements before and after partition
+            Run(arr, left, pivotIndex - 1);   // Sort left side
+            Run(arr, pivotIndex + 1, right);  // Sort right side
+        }
+
+        return arr;
+    }
+
+    // Partitions array and returns index of pivot element
+    private int Partition(int[] arr, int left, int right)
+    {
+        int pivot = arr[right];  // Choose rightmost element as pivot
+        int i = left - 1;         // Index of smaller element
+
+        // Traverse array from left to right-1
+        for (var j = left; j < right; j++)
+        {
+            // If current element is smaller than or equal to pivot
+            if (arr[j] <= pivot)
+            {
+                i++;  // Increment index of smaller element
+                // Swap arr[i] and arr[j]
+                (arr[j], arr[i]) = (arr[i], arr[j]);
+            }
+        }
+
+        // Place pivot in correct position (after all smaller elements)
+        (arr[i + 1], arr[right]) = (arr[right], arr[i + 1]);
+
+        return i + 1;  // Return pivot's final position
     }
 }
