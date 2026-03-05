@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Recursion", "03_Recursio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Quicksort", "04_Quicksort\04_Quicksort.csproj", "{A85DA767-A9E7-4AA7-8C02-FF9F1E6FCC0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_HashTables", "05_HashTables\05_HashTables.csproj", "{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{A85DA767-A9E7-4AA7-8C02-FF9F1E6FCC0C}.Release|x64.Build.0 = Release|Any CPU
 		{A85DA767-A9E7-4AA7-8C02-FF9F1E6FCC0C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A85DA767-A9E7-4AA7-8C02-FF9F1E6FCC0C}.Release|x86.Build.0 = Release|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Debug|x64.Build.0 = Debug|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Release|x64.ActiveCfg = Release|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Release|x64.Build.0 = Release|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD1DC78A-63A5-49B1-8CF3-C62D8D51BA0B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
