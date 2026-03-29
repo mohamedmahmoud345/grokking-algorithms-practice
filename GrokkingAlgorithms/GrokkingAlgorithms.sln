@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_HashTables", "05_HashTab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_BreadthFirstSearch", "06_BreadthFirstSearch\06_BreadthFirstSearch.csproj", "{61A1EAC5-9980-427F-A541-26A8B25F9CE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_DijkstraAlgorithm", "07_DijkstraAlgorithm\07_DijkstraAlgorithm.csproj", "{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{61A1EAC5-9980-427F-A541-26A8B25F9CE0}.Release|x64.Build.0 = Release|Any CPU
 		{61A1EAC5-9980-427F-A541-26A8B25F9CE0}.Release|x86.ActiveCfg = Release|Any CPU
 		{61A1EAC5-9980-427F-A541-26A8B25F9CE0}.Release|x86.Build.0 = Release|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Debug|x64.Build.0 = Debug|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Debug|x86.Build.0 = Debug|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Release|x64.ActiveCfg = Release|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Release|x64.Build.0 = Release|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B83DAB67-5FEF-4671-AAFE-EF7BA890E28C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
