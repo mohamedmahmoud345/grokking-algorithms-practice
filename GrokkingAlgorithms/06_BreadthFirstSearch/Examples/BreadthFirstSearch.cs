@@ -27,14 +27,14 @@ class BreadthFirstSearch
                 {
                     foreach (var friend in graph[person])
                     {
-                        searchQueue.Enqueue(person);
+                        searchQueue.Enqueue(friend);
                     }
                 }
                 set.Add(person);
             }
-            Console.WriteLine("No mango seller found!");
-            return;
         }
+        Console.WriteLine("No mango seller found!");
+        return;
     }
     private static bool IsSeller(string name)
     {
