@@ -5,7 +5,7 @@ class BreadthFirstSearch
     public static void FindSeller(Dictionary<string, List<string>> graph)
     {
         var searchQueue = new Queue<string>();
-        var set = new HashSet<string>();
+        var visited = new HashSet<string>();
 
         foreach (var friend in graph["you"])
         {
@@ -15,6 +15,7 @@ class BreadthFirstSearch
         while (searchQueue.Count > 0)
         {
             var person = searchQueue.Dequeue();
+            if (!visited.Add(person)) continue;
 
             if (IsSeller(person))
             {
@@ -30,7 +31,6 @@ class BreadthFirstSearch
                         searchQueue.Enqueue(friend);
                     }
                 }
-                set.Add(person);
             }
         }
         Console.WriteLine("No mango seller found!");
